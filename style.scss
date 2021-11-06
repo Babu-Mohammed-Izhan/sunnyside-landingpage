@@ -197,7 +197,7 @@
 }
 
 .testimonials {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -259,16 +259,36 @@
 }
 
 .gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  min-height: 100%;
   .image1 {
+    min-height: 50vh;
     background: url("./images/desktop/image-gallery-milkbottles.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .image2 {
+    min-height: 50vh;
     background: url("./images/desktop/image-gallery-orange.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .image3 {
+    min-height: 50vh;
     background: url("./images/desktop/image-gallery-cone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   .image4 {
+    min-height: 50vh;
     background: url("./images/desktop/image-gallery-sugarcubes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
