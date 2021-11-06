@@ -226,6 +226,49 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      margin-top: 2rem;
+      .profile {
+        border-radius: 50%;
+        max-height: 70px;
+        max-width: 70px;
+      }
+      .review {
+        text-align: center;
+        margin-top: 4rem;
+        padding: 0rem 2rem;
+        color: hsl(213, 9%, 39%);
+        font-family: "Barlow", sans-serif;
+        font-weight: 600;
+        line-height: 1.5rem;
+      }
+      .name {
+        margin-top: 5rem;
+        color: hsl(212, 27%, 19%);
+        font-family: "Fraunces", sans-serif;
+        font-weight: 900;
+      }
+      .job {
+        margin-top: 1rem;
+        color: hsl(210, 4%, 67%);
+        font-family: "Fraunces", sans-serif;
+        font-weight: 900;
+        font-size: 0.7rem;
+      }
     }
+  }
+}
+
+.gallery {
+  .image1 {
+    background: url("./images/desktop/image-gallery-milkbottles.jpg");
+  }
+  .image2 {
+    background: url("./images/desktop/image-gallery-orange.jpg");
+  }
+  .image3 {
+    background: url("./images/desktop/image-gallery-cone.jpg");
+  }
+  .image4 {
+    background: url("./images/desktop/image-gallery-sugarcubes.jpg");
   }
 }

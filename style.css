@@ -365,5 +365,53 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 2rem;
+}
+
+.testimonials .reviews .testimonial .profile {
+  border-radius: 50%;
+  max-height: 70px;
+  max-width: 70px;
+}
+
+.testimonials .reviews .testimonial .review {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 0rem 2rem;
+  color: #5a636c;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.testimonials .reviews .testimonial .name {
+  margin-top: 5rem;
+  color: #23303e;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+}
+
+.testimonials .reviews .testimonial .job {
+  margin-top: 1rem;
+  color: #a7abae;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 0.7rem;
+}
+
+.gallery .image1 {
+  background: url("./images/desktop/image-gallery-milkbottles.jpg");
+}
+
+.gallery .image2 {
+  background: url("./images/desktop/image-gallery-orange.jpg");
+}
+
+.gallery .image3 {
+  background: url("./images/desktop/image-gallery-cone.jpg");
+}
+
+.gallery .image4 {
+  background: url("./images/desktop/image-gallery-sugarcubes.jpg");
 }
 /*# sourceMappingURL=style.css.map */
