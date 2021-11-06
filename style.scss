@@ -37,6 +37,7 @@
       color: hsl(167, 40%, 24%);
       border-radius: 50px;
       font-weight: 900;
+      cursor: pointer;
     }
   }
 }
@@ -67,7 +68,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     min-width: 100%;
-    min-height: 30rem;
+    min-height: 35rem;
     .col1 {
       grid-column: 1/2;
       display: flex;
@@ -137,7 +138,7 @@
     .col3.graphic {
       background: url("./images/desktop/image-graphic-design.jpg");
       max-width: 100%;
-      height: auto;
+      min-height: 100%;
       grid-column: 1/2;
       display: flex;
       align-items: center;
@@ -226,7 +227,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      margin-top: 2rem;
+      padding: 3rem 0rem;
       .profile {
         border-radius: 50%;
         max-height: 70px;
@@ -291,4 +292,38 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+}
+
+.contact {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 3rem;
+  background: rgb(134, 207, 190);
+  .logo {
+    font-size: 30px;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    color: hsl(167, 40%, 24%);
+  }
+  .links {
+    padding: 3rem;
+    a {
+      padding: 0rem 2rem;
+      text-decoration: none;
+      color: hsl(168, 34%, 41%);
+    }
+  }
+}
+
+.icon {
+  svg {
+    margin: 15px 10px;
+  }
+}
+
+.attribution {
+  background: rgb(134, 207, 190);
 }

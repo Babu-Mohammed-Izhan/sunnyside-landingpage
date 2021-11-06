@@ -53,6 +53,7 @@
   color: #25564b;
   border-radius: 50px;
   font-weight: 900;
+  cursor: pointer;
 }
 
 .hero {
@@ -94,7 +95,7 @@
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
   min-width: 100%;
-  min-height: 30rem;
+  min-height: 35rem;
 }
 
 .learnmore .row .col1 {
@@ -196,7 +197,7 @@
 .learnmore .row .col3.graphic {
   background: url("./images/desktop/image-graphic-design.jpg");
   max-width: 100%;
-  height: auto;
+  min-height: 100%;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
@@ -365,7 +366,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 2rem;
+  padding: 3rem 0rem;
 }
 
 .testimonials .reviews .testimonial .profile {
@@ -438,5 +439,49 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.contact {
+  min-height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 3rem;
+  background: #86cfbe;
+}
+
+.contact .logo {
+  font-size: 30px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  color: #25564b;
+}
+
+.contact .links {
+  padding: 3rem;
+}
+
+.contact .links a {
+  padding: 0rem 2rem;
+  text-decoration: none;
+  color: #458c7e;
+}
+
+.icon svg {
+  margin: 15px 10px;
+}
+
+.attribution {
+  background: #86cfbe;
 }
 /*# sourceMappingURL=style.css.map */
