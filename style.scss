@@ -4,38 +4,58 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1em 3em 1em 3em;
+  .logo {
+    color: #fff;
+    font-size: 1.5em;
+  }
   .nav-links {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    min-width: 30%;
+    min-width: 40%;
 
     .link {
       color: #fff;
       font-style: normal;
+      text-decoration: none;
+      padding: 0px 20px;
     }
 
     .contact-button {
+      font-family: "Fraunces";
       border: none;
-      padding: 30px;
+      padding: 20px 25px 20px 25px;
       background-color: #fff;
-      color: black;
-      border-radius: 25%;
+      color: hsl(212, 27%, 19%);
+      border-radius: 50px;
+      font-weight: 900;
     }
   }
 }
 
 .hero {
   min-height: 100vh;
+  min-width: 100%;
   background: url("./images/desktop/image-header.jpg");
-  overflow: hidden;
-  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900px;
+    color: #fff;
+    font-family: "Fraunces", sans-serif;
+    font-size: 3.5em;
+    margin-top: 1.5em;
+  }
 }

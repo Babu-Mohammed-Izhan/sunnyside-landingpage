@@ -4,7 +4,7 @@
   padding: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Barlow";
+  font-family: "Barlow", sans-serif;
 }
 
 .navbar {
@@ -17,7 +17,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1em 3em 1em 3em;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 1.5em;
 }
 
 .navbar .nav-links {
@@ -30,27 +35,49 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  min-width: 30%;
+  min-width: 40%;
 }
 
 .navbar .nav-links .link {
   color: #fff;
   font-style: normal;
+  text-decoration: none;
+  padding: 0px 20px;
 }
 
 .navbar .nav-links .contact-button {
+  font-family: "Fraunces";
   border: none;
-  padding: 30px;
+  padding: 20px 25px 20px 25px;
   background-color: #fff;
-  color: black;
-  border-radius: 25%;
+  color: #23303e;
+  border-radius: 50px;
+  font-weight: 900;
 }
 
 .hero {
   min-height: 100vh;
+  min-width: 100%;
   background: url("./images/desktop/image-header.jpg");
-  overflow: hidden;
-  -o-object-fit: contain;
-     object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 900px;
+  color: #fff;
+  font-family: "Fraunces", sans-serif;
+  font-size: 3.5em;
+  margin-top: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */
